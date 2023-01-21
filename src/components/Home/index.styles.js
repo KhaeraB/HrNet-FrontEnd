@@ -53,7 +53,7 @@ margin-top: 3%;
 }
 `
 
-export const TitleForm = styled.h1`
+export const TitleForm = styled.h2`
     font-weight : lighter; 
     color: ${customTheme.colors.primary500}; 
     text-align: center; 
