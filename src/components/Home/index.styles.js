@@ -31,7 +31,7 @@ export const ContentForm = styled(Container)`
     padding: 1%; 
     border-radius: 10px; 
     margin: 0 auto; 
-    @media (min-width: 360px) and (max-width: 425px) {
+    @media (min-width: 320px) and (max-width: 425px) {
         width: 100%; 
     }
         @media (min-width: 425px) and (max-width: 980px) {
