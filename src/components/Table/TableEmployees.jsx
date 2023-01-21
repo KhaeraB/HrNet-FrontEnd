@@ -48,7 +48,7 @@ const TableEmployees = ({ ids }) => {
                         dataSource={filterData == null ? data : filterData} 
                         size='middle' 
                         pagination={{
-                            style:{marginTop:'40px'},
+                            style:{margin:'47px 0'},
                             defaultPageSize:10, 
                             defaultCurrent:1,
                             showSizeChanger:true,
