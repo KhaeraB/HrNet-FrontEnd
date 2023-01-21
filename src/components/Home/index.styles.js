@@ -28,13 +28,10 @@ export const ContentForm = styled(Container)`
     flex-direction : column; 
     width: 33%; 
     background-color: white; 
-    position: relative;
-    top: 10%;
-    left: 0%;
     padding: 1%; 
     border-radius: 10px; 
     margin: 0 auto; 
-    @media (min-width: 375px) and (max-width: 425px) {
+    @media (min-width: 360px) and (max-width: 425px) {
         width: 100%; 
     }
         @media (min-width: 425px) and (max-width: 980px) {
