@@ -32,7 +32,7 @@ export const Footer = () => {
     <ContentFooter fluid={true} className="p-0 d-flex justify-content-center">
       <TitleFooter >
         <LogoImgFooter src="logo192.png" alt="Hrnet" href="/" />
-        <h5>HrNet </h5>
+        <p>HrNet </p>
         <p>  @2022</p>
       </TitleFooter>
     </ContentFooter>
