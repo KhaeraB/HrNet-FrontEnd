@@ -58,7 +58,7 @@ export const AddEmployee = () => {
   const onCityChanged = (e) => setCity(e.target.value);
 
   const onZipCodeChanged = (e) => setZipCode(e.toString());
-console.log(zipCode)
+
   const onDeptChanged = (e) => {
     setDepartmentEmployees(e);
   };
