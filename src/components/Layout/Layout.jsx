@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 
 
-import { LogoImg, ContentNavBar, TitleLogo, ContentFooter, LogoImgFooter, TitleFooter } from './index.styles'
+import { LogoImg, ContentNavBar, TitleLogo, ContentFooter, TitleFooter } from './index.styles'
 import Logo from '../../assets/logo.png'
 
 /**
@@ -31,7 +31,6 @@ export const Footer = () => {
   const content = (
     <ContentFooter fluid={true} className="p-0 d-flex justify-content-center">
       <TitleFooter >
-        <LogoImgFooter fetchpriority="low" src="logo192.png" alt="Hrnet" href="/" />
         <p>HrNet </p>
         <p>  @2022</p>
       </TitleFooter>

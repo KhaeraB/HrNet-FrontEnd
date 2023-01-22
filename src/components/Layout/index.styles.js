@@ -4,7 +4,7 @@ import { customTheme } from '../../utils/style/variables'
 import { Container } from 'react-bootstrap'
 
 export const LogoImg = styled.img`
-  width: 50%;
+  width: 20%;
   height:15%; 
 `
 export const LogoImgFooter = styled.img`
